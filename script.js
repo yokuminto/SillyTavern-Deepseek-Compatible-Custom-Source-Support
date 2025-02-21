@@ -1,7 +1,7 @@
 import { extension_settings, getContext, loadExtensionSettings } from "../../../extensions.js";
 import { saveSettingsDebounced } from "../../../../script.js";
 
-const extensionName = "custom-processing";
+const extensionName = "dcss";
 const extensionSettings = extension_settings[extensionName] || {};
 
 async function loadSettings() {
@@ -57,7 +57,7 @@ function injectProcessing() {
 jQuery(async () => {
     // 加载设置界面
     const settingsHtml = await $.get(`/extensions/${extensionName}/settings.html`);
-    $("#extensions_settings").append(settingsHtml);
+    $("#dccss-settings").append(settingsHtml);
     
     // 设置事件监听
     $("#enable_prefix").on("change", function() {
