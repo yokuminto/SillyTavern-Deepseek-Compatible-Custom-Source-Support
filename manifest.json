@@ -1,0 +1,11 @@
+{
+    "display_name": "Deepseek-compatible Custom Source Support",
+    "loading_order": 20,
+    "requires": [],
+    "optional": [],
+    "js": "script.js",
+    "css": "",
+    "author": "Yokuminto",
+    "version": "1.0.0",
+    "homePage": "https://github.com/yokuminto/SillyTavern-Deepseek-Compatible-Custom-Source-Support"
+}
